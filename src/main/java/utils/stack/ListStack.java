@@ -35,7 +35,7 @@ public class ListStack<E> implements Stack {
         return top.getItem();
     }
 
-    private boolean isEmpty() {
+    public boolean isEmpty() {
         return size == 0;
     }
 
