@@ -7,13 +7,13 @@ public interface Stack<E> {
     void push(E e);
 
     /**
-     * 배열의 마지막 Item을 return한다.
+     * 스택의 마지막 Item을 return한다.
      * 마지막 Item은 삭제된다.
      */
     E pop();
 
     /**
-     * 배열의 마지막 Item을 return한다.
+     * 스택의 마지막 Item을 return한다.
      */
     E peek();
 
